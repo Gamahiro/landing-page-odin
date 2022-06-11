@@ -179,17 +179,25 @@ margin-right: auto;
 
 .calltoContent {
 background-color: #3882f6;
-padding: 20px 150px 20px 150px;
+color: white;
+padding: 100px 150px 100px 150px;
 border-radius: 5px;
-display: flex;
 margin-top: 100px;
 margin-bottom: 100px;
-
+display: flex;
 
 }
 
 .calltoText {
     margin-right: 50px;
+}
+
+.calltoText h1 {
+    margin: 0;
+}
+
+.calltoText p {
+    margin: 0;
 }
 
 .calltoContent .signup-button {
