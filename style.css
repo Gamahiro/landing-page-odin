@@ -1,0 +1,195 @@
+body {
+display: flex;
+flex-direction: column;
+margin: 0;
+/*background-color: #1f2937;
+margin: 10px 150px 10px 150px;*/
+}
+
+.header {
+    background-color: #1f2937;
+    color: white;
+    padding: 20px 150px 20px 150px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    
+    
+}
+
+.headerLogo {
+    font-weight: 900;
+    font-size: large;
+}
+
+ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+
+
+}
+
+li {
+    text-decoration: none;
+    margin-left: 20px;
+
+}
+
+.headerLinks {
+display: flex;
+flex: 1;
+justify-content: flex-end;
+}
+
+.banner {
+    display: flex;
+    padding: 50px 150px 150px 150px;
+    justify-content: space-around;
+    color: white;
+    background-color: #1f2937;
+}
+
+.bannertext {
+    width: 400px;
+    height: 200px;
+    margin-left: auto;
+    padding-right: 20px;
+}
+
+.bannertext h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+    color: #f9faf8;
+}
+
+.bannertext p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.imgPlaceholder {
+    background-color: darkgray;
+    color: white;
+    height: 200px;
+    width: 400px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+}
+
+.infobox {
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 150px 20px 150px;
+}
+
+.infoboxes {
+
+    display: flex;
+    justify-content: center;
+    gap: 10px 50px;
+
+}
+
+.infoboxContent {
+    display: flex;
+    width: 150px;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.infoImgPlaceholder {
+    width: 150px;
+    height: 150px;
+    border: solid 3px #3882f6;
+    border-radius: 15px;
+    flex-shrink: 0;
+
+
+}
+
+.infoTitle {
+    font-size: xx-large;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+
+.quotebox {
+    background-color: #E5E7EB;
+    padding: 50px 150px 20px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.quoteText {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quotename {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+.signup-button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 3px;
+    border: white solid 1px;
+    padding: 5px 15px 5px 15px;
+}
+
+.calltoAction {
+display: flex;
+flex: 1;
+justify-content: center;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.calltoContent {
+background-color: #3882f6;
+padding: 20px 150px 20px 150px;
+border-radius: 5px;
+display: flex;
+margin-top: 100px;
+margin-bottom: 100px;
+
+
+}
+
+.calltoText {
+    margin-right: 50px;
+}
+
+.calltoContent .signup-button {
+    flex-shrink: 0;
+    margin: auto;
+}
+
+.footer {
+    color: white;
+    background-color: #1f2937;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
